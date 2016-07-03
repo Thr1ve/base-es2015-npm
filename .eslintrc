@@ -1,0 +1,27 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-ESlint",
+  "rules": {
+      "one-var": 0,
+      "complexity": [2, 3],
+      "id-length": 0,
+      "func-names": 0,
+      "indent": [2, 2, {"SwitchCase": 1}],
+      "quotes": [2, "single"],
+      "linebreak-style": [2, "unix"],
+      "semi": [2, "always"],
+      "strict": 0,
+      "no-console": 0,
+      "prefer-const": 0,
+      "comma-dangle": 0,
+      "no-use-before-define": [1, "nofunc"]
+  },
+  "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+  },
+  "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+  }
+}
